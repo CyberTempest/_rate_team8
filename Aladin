@@ -13,3 +13,4 @@
   John Doe:1000:aad3b435b51404eeaad3b435b51404ee:b9f917853e3dbf6e6831ecce60725930:::
   Так как нам нужен пароль от Johb Doe, то расшифровываем хэш b9f917853e3dbf6e6831ecce60725930 на сайте hashes.com
   b9f917853e3dbf6e6831ecce60725930 - passw0rd
+  Ответ: passw0rd

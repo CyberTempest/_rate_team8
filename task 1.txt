@@ -1,5 +1,0 @@
-https://www.root-me.org/en/Challenges/Forensic/Command-Control-level-2?action_solution=voir#ancre_solution
- открыл через volotility 
- volatility -f ch2.dmp imageinfo - узнал ОС, с которой сняли дамп памяти
- volatility -f ch2.dmp --profile=Win7SPx86_23418 envars - узнал имя домена
- Ответ: WIN-ETSA91RKCFP

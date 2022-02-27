@@ -1,4 +1,6 @@
-1. Проверяем порты и службы на данном хосте ![Безымянный](https://user-images.githubusercontent.com/91682600/155879995-f70bbf73-4a6d-4d8d-9d1e-5edd01aa5992.png)
+1. Проверяем порты и службы на данном хосте 
+
+![Безымянный](https://user-images.githubusercontent.com/91682600/155879995-f70bbf73-4a6d-4d8d-9d1e-5edd01aa5992.png)
 2. Попробуем подключиться к ftp. Замечаем, что развернут ProFTPD версии 1.3.5![2022-02-26_19-39-13](https://user-images.githubusercontent.com/91682600/155880064-5abaad88-eee1-4573-90f0-821d1c42b26a.png)
 3. Чекаем уязвимости ![2022-02-27_14-14-40](https://user-images.githubusercontent.com/91682600/155880230-aa01263d-3c22-4df0-bb81-3dd22f7d181b.png)
 4. Изучем материал http://www.proftpd.org/docs/contrib/mod_copy.html

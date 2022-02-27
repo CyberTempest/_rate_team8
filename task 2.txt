@@ -1,8 +1,0 @@
-https://www.root-me.org/en/Challenges/Forensic/Command-Control-level-5?lang=en
- .\volatility_2.6_win64_standalone.exe -f .\ch2.dmp --profile=Win7SP1x86_23418 hivelist - посмотрел список реестра в дампе
- .\volatility_2.6_win64_standalone.exe -Ф .\СН2.ДМП --профиль=Win7SP1x86_23418 hashdump -й 0x8b21c008 -с 0x8ee66740 > hashes.txt - извлек эти хэши
-После этого файл hashes.txt выглядит так:
-Administrator:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
-Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
-John Doe:1000:aad3b435b51404eeaad3b435b51404ee:b9f917853e3dbf6e6831ecce60725930:::
-Так как нам нужен пароль от Johb Doe, то расшифровываем хэш b9f917853e3dbf6e6831ecce60725930 на сайте hashes.com

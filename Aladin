@@ -4,4 +4,6 @@
   volatility -f ch2.dmp imageinfo - узнал ОС, с которой сняли дамп памяти
   volatility -f ch2.dmp --profile=Win7SPx86_23418 envars - узнал имя домена
   Ответ: WIN-ETSA91RKCFP
-2.
+2. https://www.root-me.org/en/Challenges/Forensic/Command-Control-level-5?lang=en
+  .\volatility_2.6_win64_standalone.exe -f .\ch2.dmp --profile=Win7SP1x86_23418 hivelist - посмотрел список реестра в дампе
+  .\volatility_2.6_win64_standalone.exe -f .\ch2.dmp --profile=Win7SP1x86_23418 hashdump -y 0x8b21c008 -s 0x8ee66740 > hashes.txt - извлек эти хэши
